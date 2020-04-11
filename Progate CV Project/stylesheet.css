@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    font-family: 'Lucinda Grande';
+}
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left{
+    float: left;
+    cursor: pointer;
+}
+.header-left img{
+    width: 124px;
+    margin-top: -30px;
+    margin-left: -75px
+}
+.header-right{
+    float: right;
+    padding: 20px 0;
+}
+.header-right a{
+    color: grey;
+    text-align: right;
+    font-size: 12px;
+    line-height: 10px;
+    margin-right: 25px;
+}
+.header-right a:hover{
+    color: white;
+}
+.intro{
+    background-image: url("welcome.png");
+    background-size: cover;
+    padding: 180px 0 100px 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.intro h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.intro a{
+    color: yellow;
+    font-size: 17px;
+    line-height: 10px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.info {
+    animation-name: move;
+    animation-duration: 1.5s;
+}
+.intro-header span{
+    color: rgba(0, 0, 255, 0.8);
+    font-size: 40px;
+}
+input, textarea{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+.about{
+    background-color: rgba(146, 146, 235, 0.3);
+    width: 100%;
+    text-align: center;
+}
+.about-logo img{
+    width: 200px;
+    height: 200px;
+}
+.about-logo {
+    padding-top: 100px;
+}
+.heading h3{
+    float: left;
+    border-bottom: rgb(80, 72, 72) solid 2px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 20, 131);
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.story {
+    width: 80%;
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 50px;
+}
+.education {
+    background-image: url("education-logo.jpg");
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 750px;
+}
+.education h3{
+    color: yellow;
+    opacity: 0.8;
+}
+.schools {
+    padding-top: 20px;
+}
+.school {
+    width: 33%;
+    float: left;
+}
+.school img{
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}
+.school-icon {
+    position: relative;
+}
+.school-icon p {
+    position: absolute;
+    top: 37%;
+    width: 100%;
+    font-weight: 1000;
+}
+.basic{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: black;
+}
+.basic h2{
+    font-weight: normal;
+}
+.name {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 25px;
+    color: black;
+}
+.year {
+    width: 80%;
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    margin-top: -25px;
+}
+.course {
+    width: 80%;
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    margin-top: -25px;
+}
+.sd{
+    color: rgb(0, 255, 0);
+}
+.smp{
+    color: blue;
+}
+.sma{
+    color: yellow;
+}
+
+.extra h2{
+    font-weight: normal;
+    color: red;
+}
+.extra-course {
+    width: 33%;
+    float: left;
+    display: block;
+
+}
+.extra-course p{
+    color: tomato;
+}
+.work{
+    background-image: url("logo-work.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -16px;
+}
+.work h3{
+    color: turquoise;
+}
+.company-icon img{
+    width: 200px;
+    height: 200px;
+    opacity: 0.4;
+}
+.company {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.works {
+    padding-top: 20px;
+}
+.contact {
+    background-color: rgba(144, 168, 247, 0.3);
+    width: 100%;
+    height: 100%;
+}
+.contact {
+    height: auto;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contact-submit {
+    background-color: #b2b2b2;
+    cursor: pointer;
+    box-shadow: 0 7px #999999;
+    text-align: center;
+    margin: 20px 0;
+    padding: 12px 24px;
+    color: #000000;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+} 
+.contact-submit:hover {
+    background-color: rgba(100, 100, 170, 0.432);
+    box-shadow: 0 7px #b29600;
+    color: black;
+}
+.contact-submit p {
+    margin: 10px 0;
+}
+.contact-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.form {
+    text-align: center;
+}
+footer {
+    height: 180px;
+    width: 100%;
+    background-color: rgba(0, 0, 128, 0.377);
+    padding: 25px 0;
+    color: white;
+}
+.footer-left {
+    float: left;
+}
+.footer-left img {
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+}
+.footer-left span{
+    padding-top: 110px;
+    margin-left: -70px;
+    cursor: pointer;
+}
+.footer-right {
+    float: right;
+    font-size: 15px;
+}
+.footer-right li {
+    padding: 10px 0;
+}
+.footer-right a {
+    text-decoration: none;
+    color: white
+}
+.footer-right a:hover {
+    color: black;
+}
+.footer-right ul {
+    padding: 0;
+}
+@keyframes move {
+    from {transform: scaleX(100);}
+    to {transform: scaleX(0);}
+}
+@media all and (max-width: 1000px) {
+    .intro h1{
+        font-size: 32px;
+    }
+    .heading h3{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .school{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .extra-course{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+@media all and (max-width: 670px) {
+    .menu-icon{
+        display: block;
+        float: right;
+        color: white;
+        padding-top: 21px;
+        font-size: 25px;
+        margin: auto
+      }
+      .header-right{
+        display: none;
+      }
+      .school{
+          width: 100%;
+          margin: auto
+      }
+      .extra-course{
+          width: 100%;
+          margin: auto
+      }
+      .company{
+          width: 100%;
+          margin: auto
+      }
+}
